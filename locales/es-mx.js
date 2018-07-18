@@ -1,6 +1,6 @@
 // numeral.js locale configuration
-// locale : spanish
-// author : Hernan Garcia : https://github.com/hgarcia
+// locale : Spanish Mexico
+// author : Ricardo López : https://github.com/rash-pro
 
 (function (global, factory) {
     if (typeof define === 'function' && define.amd) {
@@ -11,10 +11,10 @@
         factory(global.numeral);
     }
 }(this, function (numeral) {
-    numeral.register('locale', 'es', {
+    numeral.register('locale', 'es-mx', {
         delimiters: {
-            thousands: '.',
-            decimal: ','
+            thousands: ',',
+            decimal: '.'
         },
         abbreviations: {
             thousand: 'k',
